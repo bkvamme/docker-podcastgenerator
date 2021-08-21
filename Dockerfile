@@ -3,7 +3,7 @@ FROM debian:buster-slim
 
 LABEL maintainer="Oytun Deniz <oytun.deniz@gmail.com>" \
     name="podcastgenerator" \
-    version="1.0"
+    version="2.0"
 
 
 ENV HOME /root
@@ -18,7 +18,7 @@ RUN apt-get -qq update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-ENV PODCASTGEN_VERSION=3.1
+ENV PODCASTGEN_VERSION=3.1.1
 
 EXPOSE 80
 
