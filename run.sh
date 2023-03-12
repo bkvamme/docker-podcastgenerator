@@ -13,4 +13,3 @@ unzip /tmp/podcastgen.zip && \
 
 service php7.3-fpm start
 service nginx start && tail -f /var/log/nginx/error.log
-asdasdasd
